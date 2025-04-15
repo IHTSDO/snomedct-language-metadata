@@ -47,6 +47,27 @@
           "languageDialects": "nl-X-160161000146108,en-X-160161000146108,nl-X-15551000146102,en-X-15551000146102,nl-X-31000146106,en-X-31000146106,en-X-900000000000509007"
         }
       ]
+    },
+    {
+      "title": "Swedish Edition",
+      "moduleUri": "http://snomed.info/sct/45991000052106",
+      "languageCodes": ["sv", "en"],
+      "languageRefsets": ["46011000052107", "83461000052100", "63451000052100"],
+      "contexts" : [
+        {
+          "name": "Swedish clinical",
+          "languageDialects": "sv-X-46011000052107,en-X-900000000000509007"
+        },
+        {
+          "name": "Swedish patient friendly",
+          "languageDialects": "sv-X-63451000052100,sv-X-46011000052107,en-X-900000000000509007"
+        },
+        {
+          "name": "Swedish nursing",
+          "languageDialects": "sv-X-83461000052100,sv-X-46011000052107,en-X-900000000000509007"
+        }
+      ]
     }
+    
   ]
 }
